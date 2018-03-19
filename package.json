@@ -6,9 +6,9 @@
     "type": "url",
     "url": "teracube.hmsw.fr"
   },
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node index.js"
   },
   "author": "ZipsTutoGaming",
   "license": "MIT",
