@@ -1,10 +1,12 @@
-const Discord = require("discord.js");
+{
+	
+}const Discord = require("discord.js");
 const bot = new Discord.Client();
 
 var prefix = ("?")
 
 bot.on('ready', function() {
-	bot.user.setGame("TeraCube | ?help");
+	bot.user.setGame('TeraCube | ?help');
 	console.log("Connexion réussi à ${client.user.tag}!");
 });
 
@@ -16,7 +18,8 @@ bot.on('message', message => {
 	}
 	
 	if (message.content === "Salut"){
-		message.reply(" Hey :D");
+		message.reply("Hey :D");
 		console.log("Commande -Salut effectué !");
 	}
 });
+    
