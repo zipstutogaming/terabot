@@ -1,6 +1,4 @@
-{
-	
-}const Discord = require("discord.js");
+const Discord = require("discord.js");
 const bot = new Discord.Client();
 
 var prefix = ("?")
@@ -17,7 +15,7 @@ bot.on('message', message => {
 		message.channel.sendMessage(" Liste des commandes: \n?help");
 	}
 	
-	if (message.content === "Salut"){
+	if (message.content === "Salut" or " salut" or "bonjour" or "Bonjour"){
 		message.reply("Hey :D");
 		console.log("Commande -Salut effectué !");
 	}
