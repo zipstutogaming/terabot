@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 var prefix = ("?")
 
-bot.on('ready', function(){
+bot.on('ready', function() {
 	bot.user.setGame("TeraCube | ?help");
 	console.log("Connexion réussi à ${client.user.tag}!");
 });
