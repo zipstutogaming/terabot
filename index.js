@@ -8,7 +8,7 @@ bot.on('ready', function() {
 	bot.user.setPresence({ status: 'online', game: { name: 'TeraCube | ?help' } 
 });
 
-bot.login(process.env.TOKEN);
+bot.login('NDI1NjM0OTkxODg0NTk5Mjk2.DZKTRw.Ui-ih146Ar0hQa1o0j-bHd9EEO4');
 
 bot.on('message', message => {
 	if (message.content === prefix + "help"){
