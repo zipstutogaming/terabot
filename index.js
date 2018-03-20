@@ -5,11 +5,10 @@ var prefix = ("?")
 
 bot.on('ready', function() {
 	console.log("Connexion réussi à ${client.user.tag}!");
-	bot.user.setGame("TeraCube | ?help");
+	client.user.setPresence({ game: { name: 'TeraCube | ?help', type: 0 } 
 });
 
 bot.login('NDI0ODgzNjQyNzEyNTg4Mjg5.DY_XVQ.rboOpJydYFy7FZNRsA_ZrUWzIFg');
-bot.user.setGame('TeraCube | ?help');
 
 bot.on('message', message => {
 	if (message.content === prefix + "help"){
@@ -21,4 +20,5 @@ bot.on('message', message => {
 		console.log("Commande -Salut effectué !");
 	}
 });
+    
     
