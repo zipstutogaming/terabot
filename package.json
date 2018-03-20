@@ -1,20 +1,14 @@
 {
-  "name": "TeraBot",
-  "version": "1.0.1",
-  "description": "Bot discord pour le serveur TeraCube",
-  "repository": {
-    "type": "url",
-    "url": "teracube.hmsw.fr"
-  },
+  "name": "terabot",
+  "version": "1.0.0",
+  "description": "Bot discord du serveur TeraCube",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": ""
   },
-  "author": "ZipsTutoGaming",
-  "license": "MIT",
+  "author": "Zips Tuto/Gaming",
+  "license": "ISC",
   "dependencies": {
-    "discord.js": "^10.0.1",
-    "node-opus": "^0.2.4",
-    "opusscript": "0.0.1"
+    "discord.js": "^11.3.2"
   }
 }

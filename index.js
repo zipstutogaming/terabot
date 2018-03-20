@@ -18,7 +18,4 @@ bot.on('message', message => {
 	if (message.content === "Salut"){
 		message.reply("Hey :D");
 		console.log("Commande -Salut effectué !");
-	}
 });
-    
-    
